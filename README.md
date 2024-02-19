@@ -1,15 +1,15 @@
-# vue-digital-flop
+# vue3-digital-flop
 
 ## 介绍
 基于Vue3.0的数字翻牌器
 ## 安装
 1. npm
     ```
-    npm install vue-digital-flop --save
+    npm install vue3-digital-flop --save
     ```
 2. Yarn
     ```
-    yarn add vue-digital-flop
+    yarn add vue3-digital-flop
     ```
 ## 组件配置
 | 参数 | 说明                        | 类型      | 默认值  |
@@ -32,7 +32,7 @@
 // **main.js**
   import { createApp } from 'vue';
   import App from './App.vue';
-  import VueDigitalFlop from 'vue-digital-flop'
+  import VueDigitalFlop from 'vue3-digital-flop'
   const app = createApp(App);
   app.use(VueDigitalFlop);
   app.mount('#app');
@@ -40,7 +40,7 @@
 ### 局部注册
 ```javascript
 // **.vue**
-  import { VueDigitalFlop } from 'vue-digital-flop'
+  import { VueDigitalFlop } from 'vue3-digital-flop'
   export default {
     components: {
        VueDigitalFlop

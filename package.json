@@ -1,21 +1,21 @@
 {
-  "name": "vue-digital-flop",
+  "name": "vue3-digital-flop",
   "version": "1.0.0",
   "private": false,
   "license": "MIT",
-  "main": "lib/vue-digital-flop.umd.min.js",
+  "main": "lib/vue3-digital-flop.umd.min.js",
   "description": "数字翻牌器",
   "author": "weiyang<1348666498@qq.com>",
   "keyword": ["vue","vue3"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wy1348666498/vue-digital-flop.git"
+    "url": "https://github.com/wy1348666498/vue3-digital-flop.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-digital-flop --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name vue3-digital-flop --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
